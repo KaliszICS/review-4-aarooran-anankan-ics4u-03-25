@@ -72,6 +72,12 @@ public class PracticeProblem {
 	public static void q6() {
 		//Write question 6 code here
 		
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input a number: ");
+		String num = in.nextLine();
+		num = (1 + num);
+		double num2 = Double.parseDouble(num);
+		System.out.println((int)num2);
 	}
 
 }
