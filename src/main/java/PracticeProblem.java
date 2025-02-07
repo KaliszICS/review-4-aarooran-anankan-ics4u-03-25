@@ -14,11 +14,21 @@ public class PracticeProblem {
 	public static void q1() {
 		//Write question 1 code here
 		
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input an integer: ");
+		String num = in.nextLine();
+		num = (5 + num);
+		int num2 = Integer.parseInt(num);
+		System.out.println(num2 + 5);
+
 	}
 
 	public static void q2() {
 		//Write question 2 code here
 		
+		Scanner in = new Scanner(System.in);
+
+
 	}
 
 	public static void q3() {
